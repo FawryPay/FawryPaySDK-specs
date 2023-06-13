@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.dependency 'Alamofire', '~> 5.6.4'
+  s.dependency 'Alamofire'
   s.dependency 'SDWebImage', '~> 5.15.0'
   s.dependency 'IQKeyboardManagerSwift', '~> 6.5.11'
   s.dependency 'SwiftMessages', '~> 9.0.6'
