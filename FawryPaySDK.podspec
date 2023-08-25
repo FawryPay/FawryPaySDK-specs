@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK'
-  s.version          = '0.1.16'
+  s.version          = '0.1.17'
   s.summary          = 'FawryPaySDK is an online payment form Fawry.'
 
   s.description      = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                    	Permission is granted to No body.
                 	 LICENSE
 			}
-  s.author           = { 'ahmd-amr' => 'ahmed.amr@fawry.com' }
+  s.author           = { 'mark' => 'mark.hanna@fawry.com' }
 
   s.swift_version = '5.0'
   s.ios.deployment_target  = '11.0'
