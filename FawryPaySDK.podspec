@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK'
-  s.version          = '0.1.17'
+  s.version          = '0.1.18'
   s.summary          = 'FawryPaySDK is an online payment form Fawry.'
 
   s.description      = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'http://fawry.com'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
-                   	Copyright 2022 Ahmed Amr @ Fawry.
+                   	Copyright 2022 Mark Hanna @ Fawry.
                    	Permission is granted to No body.
                 	 LICENSE
 			}
