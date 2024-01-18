@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK'
-  s.version          = '0.1.20'
+  s.version          = '0.1.21'
   s.summary          = 'FawryPaySDK is an online payment form Fawry.'
 
   s.description      = <<-DESC
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.dependency 'Alamofire'
   s.dependency 'SDWebImage', '~> 5.15.0'
   s.dependency 'IQKeyboardManagerSwift', '~> 6.5.11'
-  s.dependency 'SwiftMessages', '~> 9.0.6'
+  # s.dependency 'SwiftMessages', '~> 9.0.6'
   # s.dependency 'SVProgressHUD', '~> 2.2.5'
   s.dependency 'RxSwift', '~> 6.5.0'
   s.dependency 'MBRadioButton', '~> 1.4'
