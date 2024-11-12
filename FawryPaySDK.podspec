@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK'
-  s.version          = '0.1.37'
+  s.version          = '0.1.38'
   s.summary          = 'FawryPaySDK is an online payment form Fawry.'
 
   s.description      = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.dependency 'Alamofire'
+  s.dependency 'Alamofire', '~> 5.9.1'
   s.dependency 'SDWebImage', '~> 5.15.0'
   s.dependency 'IQKeyboardManagerSwift', '~> 6.5.11'
   # s.dependency 'SwiftMessages', '~> 9.0.6'
