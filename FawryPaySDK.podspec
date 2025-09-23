@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FawryPaySDK'
-  s.version          = '2.0.2'
+  s.version          = '2.0.3'
   s.summary          = 'FawryPaySDK is an online payment form Fawry.'
 
   s.description      = <<-DESC
